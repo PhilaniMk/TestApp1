@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "railmed-med"
+  },
+  "targets": {
+    "railmed-med": {
+      "hosting": {
+        "test": [
+          "railmed-test"
+        ],
+        "live": [
+          "railmed-med"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
